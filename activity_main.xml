@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <Button
+            android:id="@+id/btn_get_server_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="#DC143C"
+            android:text="Get data from server" />
+    </LinearLayout>
+ 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" >
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_one_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_one"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_two_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_two"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_three"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_three_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_three"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_four"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_four_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_four"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_five"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_five_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_five"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_six"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_six_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_six"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_seven"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_seven_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_seven"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_eight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_eight_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_eight"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_nine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_nine_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_nine"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+ 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_ten"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="18dp" />
+ 
+                <Button
+                    android:id="@+id/btn_ten_in"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="insert" />
+ 
+                <Button
+                    android:id="@+id/btn_delete_ten"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Delete" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+ 
+</LinearLayout>
